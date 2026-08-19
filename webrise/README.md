@@ -1,46 +1,67 @@
-# WebRise — Marketing Site
+# WebRise
 
-A single-page, conversion-focused marketing site for WebRise, built with Next.js (App Router), React, TypeScript, and Tailwind CSS.
+Modern, conversion-focused digital solutions for local businesses.
 
-## Getting started
+WebRise is a technology and revenue-operations company focused on
+helping local businesses generate more leads, inquiries, and bookings
+through modern websites, web applications, AI automation, and
+eventually scalable SaaS products.
 
-```bash
+## 🚀 About
+
+WebRise helps businesses move beyond outdated websites, spreadsheets,
+paper registers, and manual WhatsApp workflows.
+
+long-term roadmap:
+
+1. Lead-generation websites
+2. Custom web applications
+3. AI workflow automation
+4. SaaS & white-label products
+
+## ✨ Features
+
+- Premium responsive landing page
+- Lead-generation focused UX
+- Responsive design
+- Form validation
+- Success state after submission
+- WhatsApp contact button
+- Modular React components
+- Tailwind CSS styling
+- Next.js architecture
+
+## 🛠 Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+## 📁 Project Structure
+
+app/          → Next.js application
+components/   → Reusable UI components
+public/       → Static assets
+
+## 💻 Getting Started
+
+Install dependencies:
+
 npm install
+
+Run development server:
+
 npm run dev
-```
 
-Then open http://localhost:3000.
+Then open:
 
-## Project structure
+http://localhost:3000
 
-```text
-app/
-├── page.tsx        # Assembles all sections
-├── layout.tsx       # Fonts + SEO metadata
-└── globals.css       # Design tokens & base styles
+## 📌 Project Status
 
-components/
-├── Navbar.tsx
-├── Hero.tsx
-├── GrowthConsole.tsx  # Animated hero dashboard visual
-├── ProblemSection.tsx
-├── Services.tsx
-├── Industries.tsx
-├── Process.tsx
-├── ContactSection.tsx
-├── LeadForm.tsx       # Validated lead capture form
-├── WhatsAppButton.tsx
-├── Footer.tsx
-└── Reveal.tsx         # Shared scroll-entrance animation wrapper
-```
+Currently in active development.
 
-## Things to customize before launch
+## 📄 License
 
-1. **WhatsApp number** — update `WHATSAPP_NUMBER` in `components/WhatsAppButton.tsx` and `components/Footer.tsx` with the real business number (international format, digits only, e.g. `919876543210`).
-2. **Form backend** — `components/LeadForm.tsx` currently `console.log`s the submitted data and shows a success state, as requested. Wire it up to your API/CRM of choice when ready (the validation and UI already handle the request/response cycle).
-3. **Domain & OG image** — `app/layout.tsx` has a placeholder `siteUrl`; update it and add a real Open Graph image once the domain is live.
-4. **Favicon** — `public/favicon.svg` is a minimal placeholder mark; swap in the final WebRise logo mark when available.
-
-## Design tokens
-
-Colors, type, and spacing live in `tailwind.config.ts`. The palette is a cool off-white background (`bg`), near-black ink for text, and a single emerald accent (`accent`) used sparingly for interactive and "live" moments — reflecting the product's focus on measurable growth. Headlines use Space Grotesk, body copy uses Inter, and data/labels use IBM Plex Mono to reinforce the technology-company feel.
+Private / proprietary project.
