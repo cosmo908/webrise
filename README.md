@@ -1,11 +1,12 @@
 # WebRise
 
-Modern, conversion-focused digital solutions for local businesses.
+> Modern technology and revenue solutions for local businesses.
 
-WebRise is a technology and revenue-operations company focused on
-helping local businesses generate more leads, inquiries, and bookings
-through modern websites, web applications, AI automation, and
-eventually scalable SaaS products.
+![WebRise Website Preview](./public/webrise-preview.png)
+
+WebRise is a technology and revenue-operations company focused on helping
+local businesses generate more leads, inquiries, and bookings through
+modern digital solutions.
 
 ## 🚀 About
 
