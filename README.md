@@ -2,12 +2,9 @@
 
 > Modern technology and revenue solutions for local businesses.
 
-![WebRise Website Preview](./public/webrise-preview.png)
+![WebRise Website Preview](./public/screencapture_1787136412268.png)
 
-WebRise is a technology and revenue-operations company focused on helping
-local businesses generate more leads, inquiries, and bookings through
-modern digital solutions.
-
+WebRise is a technology and revenue-operations company focused on helping local businesses generate more leads, inquiries, and bookings through modern digital solutions.
 ## 🚀 About
 
 WebRise helps businesses move beyond outdated websites, spreadsheets,
